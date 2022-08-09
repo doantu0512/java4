@@ -1,0 +1,166 @@
+/* Phần navbar sex fix lại */
+.header{
+    
+    height: 0;
+    width: 100%;
+
+    position: relative;
+    top: 0;
+}
+.header_topbar{
+    height: 50px !important;
+    z-index: 4 !important;
+    top: 0px;
+}
+.header_navbar{
+    position: fixed !important;
+    top: 0 !important;
+    padding-top: 14px !important;
+    z-index: 5 !important;
+    background: black;
+    height: 50px;
+}
+
+/* Container */
+.container_fluid{
+    /* margin-top: -30px; */
+    /* margin-bottom: -40px; */
+    /* padding-bottom: 40px; */
+    padding-top:35px;
+}
+.app_container{
+    display: block;
+    width: 500px;
+    margin: 0 auto;
+
+}
+.app_container_title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #111111;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.app_container_content{
+    width: 100%;
+    /* height: 500px; */
+    background: linear-gradient(rgb(162,119,188),rgb(199,151,124));
+    padding: 30px 50px;
+}
+.app_container_content_top{
+    color: var(--white-color);
+    font-size: 3.2rem;
+    line-height: 4rem;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: var(--margin-bottom-dt);
+}
+.app_container_content_list{
+    display: flex;
+    margin-bottom: 30px;
+}
+.app_container_content_list_text{
+    color: var(--white-color);
+    font-size: 2rem;
+    line-height: 2rem;
+    width: 100px;
+    margin-right: 20px;
+    color: var(--white-color);
+    opacity: 0.8;
+}
+.app_container_content_list_input,
+.app_container_content_list_input:focus{
+    background: none !important;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    color: var(--white-color);
+    font-size: 1.6rem;
+    outline: none;
+    flex: 1;
+}
+.app_container_content_list_radio{
+    color: var(--white-color);
+    font-size: 2rem;
+    outline: none;
+    display: block;
+    margin-right: 5px;
+    /* margin-top: 2px; */
+    width: 20px;
+    height: 20px;
+}
+.app_container_content_list_radio_text{
+    color: var(--white-color);
+    font-size: 2rem;
+    line-height: 2rem;
+    outline: none;
+    display: block;
+    margin-right: 30px;
+}
+.app_container_content_list_input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: var(--white-color);
+    /* opacity: 0.5; */
+}
+.app_container_content_submit{
+    font-size: 2rem;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    padding: 5px 15px;
+    border-radius: 20px;
+    color: var(--white-color);
+    background: var(--black-color);
+}
+.app_container_content_bottom{
+    text-align: center;
+    margin-top: 10px;
+    color: var(--white-color);
+    font-size: 1.4rem;
+}
+.app_container_content_bottom a,
+.app_container_content_bottom a:hover{
+    color: red !important;
+    text-decoration: none;
+}
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1199px) {
+    
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 1023px) {
+    .app_container{
+        display: block;
+        max-width: 500px;
+        margin: 0 auto;
+    
+    }
+    .app_container_content{
+        width: 100%;
+        /* height: 500px; */
+        background: linear-gradient(rgb(162,119,188),rgb(199,151,124));
+        padding: 30px 20px;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 767px) {
+    .app_container{
+        display: block;
+        max-width: 100%;
+        margin: 0 auto;
+    
+    }
+    .app_container_content{
+        width: 100%;
+        /* height: 500px; */
+        background: linear-gradient(rgb(162,119,188),rgb(199,151,124));
+        padding: 30px 10px;
+    }
+
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 599px) {
+    
+}
+
+

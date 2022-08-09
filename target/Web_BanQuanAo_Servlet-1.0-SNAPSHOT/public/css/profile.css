@@ -1,0 +1,77 @@
+/* Phần navbar sex fix lại */
+.header{
+    
+    height: 0px;
+    width: 100%;
+    position: relative;
+    top: 0;
+}
+.header_topbar{
+    height: 50px !important;
+    z-index: 4 !important;
+    top: 0px;
+}
+.header_navbar{
+    position: fixed !important;
+    top: 0 !important;
+    padding-top: 14px !important;
+    z-index: 5 !important;
+    background: black;
+    height: 50px;
+}
+/* app_container */
+.app_container{
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+.app_container_titile{
+    text-align: center;
+    font-size: 2.6rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.app_container_group_title{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #545454;
+}
+.app_container_group_hr{
+    height: 2px;
+    background: red;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.app_container_group_list{
+    margin-bottom: 10px;
+}
+.app_container_group_list_icon{
+    display: inline-block;
+    font-size: 1.6rem;
+    margin-right: 5px;
+    width: 20px;
+}
+.app_container_group_list_name,
+.app_container_group_list_name:hover{
+    display: inline-block;
+    font-size: 1.6rem;
+    color: var(--black-color);
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
