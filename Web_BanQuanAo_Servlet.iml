@@ -20,7 +20,7 @@
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="Hibernate" />
         <datasource-mapping>
-          <factory-entry name="PH15021_HoangTrungThong_31032002" />
+          <factory-entry name="PH15074_DOANUCTU" />
           <factory-entry name="Web_BanQuanAo_Servlet" />
           <factory-entry name="default" />
         </datasource-mapping>
