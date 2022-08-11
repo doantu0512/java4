@@ -20,7 +20,6 @@ import java.util.logging.Logger;
 public class UserServlet extends HttpServlet {
     private static final Logger logger = Logger.getLogger(String.valueOf(UserServlet.class));
     private UserDao dao;
-
     public UserServlet() {
         this.dao = new UserDao();
     }
@@ -34,7 +33,6 @@ public class UserServlet extends HttpServlet {
             this.create(request, response);
         }
     }
-
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("utf-8");
